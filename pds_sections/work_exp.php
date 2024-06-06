@@ -549,7 +549,7 @@
         // Clear input values in the cloned row
         let index = 0;
         newRow.querySelectorAll("input").forEach((input) => {
-            if (input.id != "null_vw") {
+            if (input.id != "null_work_exp") {
                 var oldId = input.getAttribute("id");
                 var newId = generateUniqueId(oldId); // Generate a unique id 
                 parentInputs[index].setAttribute("id", newId);
